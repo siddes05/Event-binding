@@ -1,23 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import ClsEventBinding from './Component/ClsEventBinding';
+import FuncEventBinding from './Component/FuncEventBinding';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Class event Binding</h1>
+      <ClsEventBinding />
+      <h1>Function event Binding</h1>
+      <FuncEventBinding />
     </div>
   );
 }
